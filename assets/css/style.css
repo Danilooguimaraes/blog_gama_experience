@@ -4,3 +4,50 @@
 	marging:3px 0;
 	display:block;
 }
+
+footer{
+	margin-top: 35px;
+	background-color: #24408e;
+	color: #fff;
+	height: 140px;
+
+}
+
+h3 {
+	color: #fff
+}
+
+html,
+body {
+	height: 100%;
+}
+
+header {
+	background-image: url(../../img/imgheader.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+	max-height: 500px;
+	margin-bottom: 25px;
+}
+
+.banner {
+	color: #FFF;
+	padding: 10px;
+	text-align: center !important;
+}
+
+.navbar-brand img {
+	text-align: center;
+	margin-left: 43px;
+	margin-top: -5px
+}
+
+.social-networks {
+	list-style: none;
+}
+
+.social-networks li {
+	display: inline-block;
+	margin: 0 !important
+}

@@ -1,23 +1,35 @@
 <html>
 	<head>
-		<title>ciBlog</title>
-		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
-		<link rel="stylesheet" href = "<?php echo base_url();?>/assets/css/style.css">
+		<title>segurodahora</title>
 		<script src="http://cdn.ckeditor.com/4.7.3/full/ckeditor.js"></script>
+		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+		<link rel="stylesheet" href = "<?php echo base_url();?>assets/css/style.css">
+		
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-106998574-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
 			<div class="container">
 				<div class = "navbar-header">
-					<a class="navbar-brand" href="<?php echo base_url();?>">ciBlog</a>
+					<a class="navbar-brand" href="<?php echo base_url();?>posts">segurodahora</a>
 				</div>
 				<div id="navbar">
 					<ul class="nav navbar-nav">
-						<li><a href="<?php echo base_url();?>">Home</a></li>
-						<li><a href="<?php echo base_url();?>about">About</a></li>
-						<li><a href="<?php echo base_url();?>posts">Blog</a></li>
+						
 					</ul>
 					<ul class = "nav navbar-nav navbar-right">
+						<li><a href="<?php echo base_url();?>posts">home</a></li>
+						<li><a href="<?php echo base_url();?>posts">blog</a></li>
+						<li><a href="<?php echo base_url();?>about">contato</a></li>
 						<?php if($this->session->userdata('logged_in')):?>
 						<li><a href="<?php echo base_url();?>posts/create">Create Post</a></li>
 						<li><a href="<?php echo base_url();?>users/logout">Log Out</a></li>
