@@ -5,16 +5,40 @@
 	display:block;
 }
 
+#divbody{
+	margin-top: 15px;"
+
+}
+
 footer{
 	margin-top: 35px;
 	background-color: #24408e;
 	color: #fff;
-	height: 140px;
+	height: 170px;
 
 }
 
+.links   {
+	color: #fff;
+}
+
+.formulario{
+	    margin: 20px
+
+}
+
+
+.footer_links {
+	color: #fff;
+	margin: 20px;
+}
+.t1{
+style="text-align: center:"
+}
 h3 {
-	color: #fff
+	color: #24408e;
+        text-align: center;
+	font-size: 16px;
 }
 
 html,
@@ -26,9 +50,13 @@ header {
 	background-image: url(../../img/imgheader.jpg);
 	background-size: cover;
 	background-position: top center;
-	height: 100%;
+	width: 100%;
+	height: 350px;
 	max-height: 500px;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
+ 	position: relative;
+ 	bottom: 0px;
+
 }
 
 .banner {
@@ -42,12 +70,58 @@ header {
 	margin-left: 43px;
 	margin-top: -5px
 }
+@media(min-width:992px) {
 
+
+}
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+#inner {
+  margin: 0 auto;
+  width: 50%; /* Altere para o valor da largura desejada. */
+}
+
+
+
+}
+#text1{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+#formebook{
+	width: 40%;
+}
 .social-networks {
 	list-style: none;
+    
 }
 
 .social-networks li {
 	display: inline-block;
 	margin: 0 !important
+	padding-left: 0px;
+    padding-right: 35px;
+	
+}
+
+address {
+	padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+}
+
+@media(min-width: 992px) {
+		.formulario {
+			left: 0;
+			transform: translate(0, -40%);
+			position: absolute;
+			width: 32px;
+		}
 }
